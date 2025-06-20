@@ -77,7 +77,7 @@ WSGI_APPLICATION = 'cookbook.wsgi.application'
 # https://docs.djangoproject.com/en/5.1/ref/settings/#databases
 
 DATABASES = {
-    "default": django_mongodb_backend.parse_uri("mongodb://localhost:52035/cookbook?directConnection=true"),
+    "default": django_mongodb_backend.parse_uri("mongodb://localhost:57384/cookbook?directConnection=true"),
 }
 
 # Password validation
